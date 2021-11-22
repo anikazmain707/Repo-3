@@ -5,7 +5,12 @@ int main() {
    char s[100];
    int i;
    printf("\nEnter a string : ");
+   printf("\nEnter a string : ");
+   printf("\nEnter a string : ");
+   printf("\nEnter a string : ");
+   printf("\nEnter a string : ");
    gets(s);
+
 
    for (i = 0; s[i]!='\0'; i++) {
       if(s[i] >= 'a' && s[i] <= 'z')
@@ -19,6 +24,6 @@ int main() {
         }
 
    }
-   printf("\n String in  = %s", s);
+
    return 0;
 }
